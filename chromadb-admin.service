@@ -1,0 +1,13 @@
+[Unit:S%
+Description=ChromaDB Admin UI
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+WorkingDirectory=%h/chromadb-admin
+ExecStart=%h/chromadb-admin/bin/start
+ExecStop=%h/chromadb-admin/bin/stop
+TimeoutStartSec=0
+
+[Install]
+WantedBy=default.target
