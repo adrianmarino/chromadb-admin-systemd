@@ -1,4 +1,4 @@
-[Unit:S%
+[Unit:S%]
 Description=ChromaDB Admin UI
 
 [Service]
