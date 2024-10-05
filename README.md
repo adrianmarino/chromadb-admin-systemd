@@ -21,7 +21,7 @@ cd chromadb
 
 **Step 2**: Get chromadb-admin.
 
-
 ```bash
-git remote add chromadb-admin https://github.com/flanker/chromadb-admin.git
+git remote add chromadb-admin https://github.com/flanker/chromadb-admin.gi
+git merge chromadb-admin/main --allow-unrelated-histories
 ```
